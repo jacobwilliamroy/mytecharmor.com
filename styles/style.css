@@ -5,3 +5,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+/*prevent horizontal scrolling on mobile devices*/
+body{
+  overflow-x:hidden;
+}
